@@ -82,7 +82,6 @@ details[open] .faq-plus { transform:rotate(45deg); }
 @keyframes sfOverlayIn { from { opacity:0; } to { opacity:1; } }
 @keyframes sfLinkIn { from { opacity:0; transform:translateY(16px); } to { opacity:1; transform:translateY(0); } }
 .sf-menu-link { animation:sfLinkIn .5s cubic-bezier(.22,1,.36,1) both; }
-@media (max-width:760px) { .sf-step-line { display:none; } }
 @media (max-width:680px) {
   .sf-hero-content { left:6vw !important; right:6vw !important; bottom:13vh !important; }
   .sf-hero-title { font-size:34px !important; line-height:1.14 !important; letter-spacing:-1px !important; }
